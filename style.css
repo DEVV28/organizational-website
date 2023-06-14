@@ -1,0 +1,297 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+header {    
+    background-color: #033e24f3;
+    padding: 0px;
+    margin: 0;
+    text-align: center;
+    font-size: 30px;
+    color:#cdd8d3
+  }
+  
+  header img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header nav ul li {
+    display: inline-block;
+    text-align: center;
+    margin-right: 100px;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 25px;
+  }
+  
+  header nav ul li a {
+    text-decoration: none; 
+    color: #fcebeb;
+  }
+
+.logo {
+    width: 200px;
+    height: 200px;
+   align-items: center;
+
+  }
+
+.logo a {
+    color: #e6e8e7;
+    background-color: #ececec;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.hero {
+    background-image: url("img/group.JPG ");
+    background-size:cover;
+    background-position: center;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-text {
+    text-align: center;
+}
+
+.hero-text h1 {
+    font-size: 36px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #151212;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #ddd;
+}
+.home{
+    font-size: 888;
+    padding-top: 5%;
+    padding-bottom: 3%;
+}
+
+.officers{
+    font-size: 50;
+    background-color: #1c0d0d;
+    padding-left: 100px;
+    
+}
+.officers .officers img {
+    height: auto;
+    width: 55px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.image-row {
+    display: flex;
+    padding-left: 5px;
+    padding-right: 25px;
+
+  }
+
+  .image-column {
+    background-color: #333;
+    color: #ddd;
+    padding-right: 20px;
+    padding-right: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+  }
+
+  
+  .image-row img {
+    width: 300px; /* Adjust the width as needed */
+    height: 20; /* Maintain aspect ratio */
+    margin-right: 10px; /* Add spacing between images */
+   margin-left: 55px;
+  }
+
+.services {
+    padding: 40px;
+    text-align: center;
+}
+
+
+.services h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.services .service {
+    margin-top: 40px;
+}
+
+.services .service img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Responsive Navigation */
+
+.nav-links {
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.burger {
+    display: none;
+    cursor: pointer;
+}
+
+.burger div {
+    width: 25px;
+    height: 3px;
+    background-color: #ffffff;
+    margin: 5px;
+    transition: all 0.3s ease;
+}
+/* contact form*/
+.contact-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 10%;
+  }
+
+  .contact-container h1 {
+    color: #333;
+    font-size: 5em;
+  }
+
+  .contact-form {
+    margin-top: 30px;
+    text-align: left;
+  }
+
+  .contact-form label {
+    display: block;
+    margin-bottom: 10px;
+    color: #777;
+    font-size: 150%;
+    padding-top: 2%;
+  }
+  .contact-form label b{
+    font-size: 130%;
+    color: #1d1d1d;
+    
+  }
+
+  .contact-form input[type="text"],
+  .contact-form textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+
+  .contact-form textarea {
+    height: 120px;
+  }
+
+  .submit-button {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .submit-button button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+
+  .submit-button button:hover {
+    background-color: #45a049;
+  }
+
+@media screen and (max-width: 768px) {
+    .nav-links {
+        display: none;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .nav-active {
+        display: flex;
+        flex-direction: column;
+    }
+    .officers{
+        display: none;
+    }
+    .image-row{
+        display: flex;
+    }
+}
